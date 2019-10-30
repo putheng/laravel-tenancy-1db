@@ -8,9 +8,9 @@ use App\Tenant\TenantManager;
 
 trait ForTenants
 {
-	public static function boot()
+	public static function bootForTenants()
 	{
-		parent::boot();
+		// parent::boot();
 
 		$manager = app(TenantManager::class);
 

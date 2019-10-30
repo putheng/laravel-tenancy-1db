@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        \App\Tenant\Commands\VueGroup::class,
+        \App\Tenant\Commands\VueMenu::class
     ];
 
     /**
