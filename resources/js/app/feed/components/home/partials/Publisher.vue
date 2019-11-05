@@ -1,0 +1,44 @@
+<template>
+<div class="media">
+	<figure class="user-avatar user-avatar-md">
+		<img src="/images/profile.jpg" alt="">
+	</figure>
+	<div class="media-body">
+		<div class="publisher" :class="{'keep-focus focus': forcus}">
+			<!-- <div class="publisher"> -->
+				<div class="publisher-input">
+					<textarea @focus="setFocus" @blur="removeFocus" class="form-control" placeholder="What happening?"></textarea>
+				</div>
+				<div class="publisher-actions">
+					<div class="publisher-tools mr-auto">
+						<div class="btn btn-light btn-icon fileinput-button">
+							<i class="fa fa-paperclip"></i>
+							<input type="file" id="pfAttachment" name="pfAttachment[]" multiple>
+						</div>
+						<button type="button" class="btn btn-light btn-icon"><i class="far fa-smile"></i></button>
+					</div>
+					<button type="submit" class="btn btn-primary">Publish</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</template>
+
+<script>
+	export default {
+		data(){
+			return {
+				forcus: false
+			}
+		},
+		methods:{
+			setFocus(){
+				this.forcus = true
+			},
+			removeFocus(){
+				this.forcus = false
+			}
+		}
+	}
+</script>

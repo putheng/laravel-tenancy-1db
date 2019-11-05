@@ -1,0 +1,106 @@
+<template>
+<ul class="timeline timeline-fluid">
+	<li class="timeline-item">
+		<div class="timeline-figure">
+			<span class="tile tile-circle tile-sm">
+			<i class="far fa-calendar-alt fa-lg"></i>
+			</span>
+		</div>
+		<div class="timeline-body">
+			<div class="media">
+				<div class="media-body">
+					<p class="mb-0"><a href="#">Jeffrey Wells</a> created a <a href="#">schedule</a></p>
+					<span class="timeline-date">About a minute ago</span>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="timeline-item">
+		<div class="timeline-figure">
+			<span class="tile tile-circle tile-sm">
+			<i class="oi oi-chat fa-lg"></i>
+			</span>
+		</div>
+		<div class="timeline-body">
+			<div class="media">
+				<div class="media-body">
+					<p class="mb-0"><a href="#">Anna Vargas</a> logged a <a href="#">chat</a> with team</p>
+					<span class="timeline-date">3 hours ago</span>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="timeline-item">
+		<div class="timeline-figure">
+			<span class="tile tile-circle tile-sm">
+			<i class="fa fa-tasks fa-lg"></i>
+			</span>
+		</div>
+		<div class="timeline-body">
+			<div class="media">
+				<div class="media-body">
+					<p class="mb-0"><a href="#">Arthur Carroll</a> created a <a href="#">task</a></p>
+					<span class="timeline-date">8:14pm</span>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="timeline-item">
+		<div class="timeline-figure">
+			<span class="tile tile-circle tile-sm">
+			<i class="fas fa-user-plus fa-lg"></i>
+			</span>
+		</div>
+		<div class="timeline-body">
+			<div class="media">
+				<div class="media-body">
+					<p class="mb-0"><a href="#">Sara Carr</a> invited to <a href="#">Stilearn Admin</a> project</p>
+					<span class="timeline-date">7:21pm</span>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="timeline-item">
+		<div class="timeline-figure">
+			<span class="tile tile-circle tile-sm">
+			<i class="fa fa-folder fa-lg"></i>
+			</span>
+		</div>
+		<div class="timeline-body">
+			<div class="media">
+				<div class="media-body">
+					<p class="mb-0"><a href="#">Angela Peterson</a> added <a href="#">Looper Admin</a> to collection</p>
+					<span class="timeline-date">5:21pm</span>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="timeline-item">
+		<div class="timeline-figure">
+			<span class="tile tile-circle tile-sm">
+			<i class="oi oi-person fa-lg"></i>
+			</span>
+		</div>
+		<div class="timeline-body">
+			<div class="media">
+				<div class="media-body">
+					<div class="avatar-group mb-2">
+						<a href="#" class="user-avatar user-avatar-sm"><img src="/images/profile.jpg" alt=""></a>
+						<a href="#" class="user-avatar user-avatar-sm"><img src="/images/profile.jpg" alt=""></a>
+						<a href="#" class="user-avatar user-avatar-sm"><img src="/images/profile.jpg" alt=""></a>
+						<a href="#" class="user-avatar user-avatar-sm"><img src="/images/profile.jpg" alt=""></a>
+					</div>
+					<p class="mb-0"><a href="#">Willie Dixon</a> and 3 others followed you</p>
+					<span class="timeline-date">4:32pm</span>
+				</div>
+			</div>
+		</div>
+	</li>
+</ul>
+</template>
+
+<script>
+	export default {
+
+	}
+</script>

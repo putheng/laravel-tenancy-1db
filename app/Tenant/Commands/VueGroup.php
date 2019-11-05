@@ -21,7 +21,7 @@ class VueGroup extends Command
      *
      * @var string
      */
-    protected $description = 'php artisan vue:group Admin';
+    protected $description = 'vue:group Admin';
 
     /**
      * Create a new command instance.

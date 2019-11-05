@@ -2,8 +2,8 @@ import store from '../vuex'
 import middlewarePipeline from './kernel/middlewarePipeline.js'
 
 const beforeEach = ((to, from, next) => {
-    store.dispatch('clearValidationErrors')
-    store.commit('clearMessage')
+    // store.dispatch('clearValidationErrors')
+    // store.commit('clearMessage')
     
     let middleware = to.matched.map((matched) => {
     	return matched.components.default.options.middleware

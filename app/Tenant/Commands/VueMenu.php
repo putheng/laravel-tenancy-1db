@@ -20,7 +20,7 @@ class VueMenu extends Command
      *
      * @var string
      */
-    protected $description = 'php artisan vue:menu Admin\\\Profile\\\Password';
+    protected $description = 'vue:menu Admin\\\Profile\\\Password';
 
     /**
      * Create a new command instance.
@@ -46,11 +46,11 @@ class VueMenu extends Command
         }
 
         if(!$this->createDirectory($arg)){
-            return $this->error('Something when wrong, please try again!');
+            return $this->error('Something when wrong, please try again!x');
         }
 
         if(!$this->createPage($arg)){
-            return $this->error('Something when wrong, please try again!');
+            return $this->error('Something when wrong, please try again!y');
         }
 
         return $this->info('Success');

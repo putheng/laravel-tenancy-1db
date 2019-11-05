@@ -14,7 +14,9 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \App\Tenant\Commands\VueGroup::class,
-        \App\Tenant\Commands\VueMenu::class
+        \App\Tenant\Commands\VueMenu::class,
+        \App\Tenant\Commands\VuexFetch::class,
+        \App\Tenant\Commands\VuexSetup::class,
     ];
 
     /**

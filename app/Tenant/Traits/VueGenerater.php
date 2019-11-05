@@ -120,6 +120,7 @@ trait VueGenerater
 
 		File::put($file, $context);
 		sleep(1);
+
 		return $this->exportToIndex($array);
 	}
 
@@ -136,7 +137,8 @@ trait VueGenerater
 			"\nexport const {$id} = Vue.component('{$id}', require('./{$arg[1]}/{$fileName}.vue').default)"
 		);
 		sleep(1);
-		$this->addToRoute($array, $id);
+		
+		return $this->addToRoute($array, $id);
 	}
 
 	public function addToRoute($arg, $id)

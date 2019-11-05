@@ -11,11 +11,11 @@
 		},
 
 		mounted(){
-			//
+			Popper.Defaults.modifiers.computeStyle.gpuAcceleration = false
 		},
 		
 		metaInfo: {
-			titleTemplate: '%s | FINFLUX'
+			titleTemplate: '%s | Finflux'
 		}
 	}
 </script>
